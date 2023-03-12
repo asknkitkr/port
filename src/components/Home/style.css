@@ -1,0 +1,11 @@
+.font-fancy {
+  font-family: "Playfair Display", sans-serif;
+}
+
+.home {
+  background-color: #1a1a1a;
+  background-image: url("../../assets/home-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
