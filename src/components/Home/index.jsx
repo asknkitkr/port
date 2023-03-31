@@ -16,7 +16,7 @@ export default function Home() {
       </section>
       <section className="mx-auto flex max-w-7xl">
         <h1 className="typing text-white text-5xl lg:text-6xl md:text-5xl sm:text-5xl font-fancy pt-20">
-          <Designation designation="Student | Software Engineer" />
+          <Designation designation="Software Engineer @ Persistent Systems" />
         </h1>
       </section>
     </main>

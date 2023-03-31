@@ -1,0 +1,53 @@
+table {
+  border-spacing: 0px 20px;
+  width: 100%;
+}
+
+.demo {
+  background-color: yellow;
+}
+
+.demo > thead {
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+
+.demo > tbody > tr {
+  border-bottom: 1px solid black;
+}
+
+.demo > tbody > tr > td:nth-child(1) {
+  background-color: blue;
+  width: 30%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 8fr;
+  gap: 5px;
+}
+
+.grid-container .grid-item:nth-child(1) {
+  background-color: #aaaaaa;
+}
+
+.grid-container .grid-item:nth-child(2) {
+  background-color: #bbbbbb;
+}
+
+.grid-container .grid-item:nth-child(3) {
+  background-color: #cccccc;
+}
+
+.grid-container .grid-item:nth-child(4) {
+  background-color: #dddddd;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr) repeat(2, 8fr);
+  }
+}
