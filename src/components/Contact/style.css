@@ -1,0 +1,8 @@
+.contact {
+  background-color: #1a1a1a;
+  background-image: url("../../assets/contact-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}

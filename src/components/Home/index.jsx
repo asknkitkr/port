@@ -3,7 +3,7 @@ import "./style.css";
 
 export default function Home() {
   return (
-    <main className="home h-screen py-48 lg:py-48 md:py-40 sm:py-28">
+    <main className="home h-screen py-24 px-8 lg:py-48 md:px-10 md:py-40 sm:px-10 sm:py-24">
       <section className="mx-auto flex max-w-7xl items-center justify-between">
         <h1 className="text-yellow-400 text-8xl lg:text-9xl md:text-8xl sm:text-8xl font-fancy">
           Hello There!
