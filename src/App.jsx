@@ -14,7 +14,11 @@ function App() {
   return (
     <>
       <Header />
-      <Suspense fallback={<div className="lazy-loading">Please wait...</div>}>
+      <Suspense
+        fallback={
+          <div className="text-white px-40 text-5xl">Please wait...</div>
+        }
+      >
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
