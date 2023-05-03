@@ -1,8 +1,8 @@
 import "./style.css";
+import { motion } from "framer-motion";
 
 export default function Contact() {
   const h5Style = "uppercase text-2xl text-yellow-400";
-
   return (
     <main className="contact mx-auto grid place-items-center text-center">
       <h1 className="uppercase text-yellow-400 font-light playfair text-7xl pt-28">
